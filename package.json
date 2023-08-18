@@ -1,0 +1,19 @@
+{
+  "name": "unsafe-ftp",
+  "version": "1.0.0",
+  "description": "Build an unsafe file server in LAN.",
+  "main": "./src/main.ts",
+  "scripts": {
+    "dev": "nodemon --watch ./src",
+    "format": "prettier ./src/* --write"
+  },
+  "author": "Penyo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
